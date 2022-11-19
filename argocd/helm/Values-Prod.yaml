@@ -7,7 +7,7 @@ image:
   tag: 1.17.0
 service:
   port: 80
-configmap
+configmap:
   key: version
   value: 1.17.0
 cpu: 70m
