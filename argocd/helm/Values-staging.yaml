@@ -1,0 +1,12 @@
+namespace:
+  name: staging
+replicascount: 1
+image:
+  repository: 
+  image: nginx
+  tag: 1.18.0
+configmap
+  key: version
+  value: 1.17.0
+cpu: 50m
+memory: 128Mi
