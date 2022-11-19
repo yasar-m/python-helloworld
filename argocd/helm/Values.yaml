@@ -9,7 +9,7 @@ imagepullpolicy: IfNotPresent
 service:
   port: 8111
   type: ClusterIP
-configmap
+configmap:
   key: version
   value: alpine
 cpu: 50m
