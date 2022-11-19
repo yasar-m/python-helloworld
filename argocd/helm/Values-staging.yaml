@@ -5,7 +5,7 @@ image:
   repository: 
   image: nginx
   tag: 1.18.0
-configmap
+configmap:
   key: version
   value: 1.17.0
 cpu: 50m
