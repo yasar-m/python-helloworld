@@ -3,5 +3,5 @@ data:
   version: alpine
 kind: ConfigMap
 metadata:
-  name: {.Values.configmap.key}
-  namespace: {.Values.configmap.value}
+  name: {{.Values.configmap.key}}
+  namespace: {{.Values.configmap.value}}
